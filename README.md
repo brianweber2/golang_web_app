@@ -1,11 +1,19 @@
 # golang_web_app
 Web app built in Golang using the standard http library.
 
+## Local Development
+
 Run the web server with the command:
 
 `go run cmd/web/*.go`
 
 Goto `http://localhost:8080`
+
+### Helpful Commands
+
+`go get`: to install new go dependencies
+
+`go mod tidy`: to update the dependency lock file after adding imports in the project
 
 ## Project Layout
 
