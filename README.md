@@ -11,7 +11,7 @@ Goto `http://localhost:8080`
 
 ### Helpful Commands
 
-`go get`: to install new go dependencies
+`go get <path to package>`: to install new go dependencies
 
 `go mod tidy`: to update the dependency lock file after adding imports in the project
 
